@@ -1,5 +1,5 @@
 ---
-description: Au début, il y avait Welligo.
+description: Au début, il y avait Welligo…
 ---
 
 # Les origines
@@ -8,10 +8,10 @@ Avant de créer des sites web éco-conçus, la volonté de l'agence était de po
 
 Les Nanosites sont légers, éco-conçus, accessibles, faciles à déployer, faciles à mettre à jour et à utiliser au quotidien, et optimisés pour le référencement naturel.&#x20;
 
-{% hint style="success" %}
+{% hint style="info" %}
 **Du coup, qu'est-ce que c'est ?**
 
-Le Nanosite n'est pas qu'un thème Wordpress. Il s'agit d'une installation Wordpress, avec un thème, quelques plugins, quelques mu-plugins, et un contenu par défaut.&#x20;
+Le Nanosite ce n'est pas qu'un thème Wordpress. Il s'agit d'une installation Wordpress, avec un thème, quelques plugins, quelques mu-plugins, et un contenu par défaut.&#x20;
 {% endhint %}
 
 
