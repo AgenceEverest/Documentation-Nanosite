@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Les origines](README.md)
+* [Installation du Nanosite](installation-du-nanosite.md)
 * [Gestion de l'arborescence](gestion-de-larborescence.md)
 
 ## ⚙ Fonctions du thème WP

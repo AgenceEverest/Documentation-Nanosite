@@ -11,8 +11,16 @@ Les Nanosites sont légers, éco-conçus, accessibles, faciles à déployer, fac
 {% hint style="info" %}
 **Du coup, qu'est-ce que c'est ?**
 
-Le Nanosite ce n'est pas qu'un thème Wordpress. Il s'agit d'une installation Wordpress, avec un thème, quelques plugins, quelques mu-plugins, et un contenu par défaut.&#x20;
+Le Nanosite ce n'est pas qu'un thème Wordpress. Il s'agit d'une installation Wordpress complète, avec un thème, quelques plugins, quelques mu-plugins, et un contenu par défaut.&#x20;
 {% endhint %}
+
+### 3 modèles
+
+Le Nanosite “Pro-efficace“ est le modèle de base, avec une personalisation basique : logo + polices + couleurs.&#x20;
+
+Si le client a besoin d'une identité plus forte, un modèle “Sur-mesure” peut-être créé à partir du  modèle “Pro-efficace”.
+
+Si le client souhaite affirmer ses convictions avec forces , une version “Militante” a été envisagée.
 
 
 
