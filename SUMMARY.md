@@ -9,6 +9,7 @@
 * [Fonctions PHP](fonctions-du-theme-wp/fonctions-php.md)
 * [Fonctions JS](fonctions-du-theme-wp/fonctions-js.md)
 * [Plugins nécessaires](fonctions-du-theme-wp/plugins-necessaires.md)
+* [Bandeau de cookies](fonctions-du-theme-wp/bandeau-de-cookies.md)
 
 ## 🏗 Structure du thème WP
 
