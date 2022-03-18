@@ -26,3 +26,42 @@ La façon de récupérer l'URL de l'image peut varier. Parfois il s'agit d'un ch
 <?php $image_alt = get_post_meta(get_post_thumbnail_id($post->ID), '_wp_attachment_image_alt', TRUE); ?>
 <?php $image_weight = apply_filters('get_weight_of_img', $thumbnail['0']); ?>
 ```
+
+### ACF-contact-form-prefill.php
+
+### ACF-nanosite-options.php
+
+### ACF-nanosite.php
+
+### admin-editor-styles.php
+
+### admin-nanosite-notice.php
+
+### admin-register-menus.php
+
+### base-clean-wp.php
+
+### base-enqueue-scripts.php
+
+### base-featured-images.php
+
+### base-enqueue-styles.php
+
+### base-image-custom-size.php
+
+### base-title-404.php
+
+### clean-antispam.php
+
+### customizer-scss.php
+
+### ninja-forms-permissions.php
+
+### yoast-meta-description.php
+
+
+
+
+
+
+
