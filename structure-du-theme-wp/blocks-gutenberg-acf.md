@@ -4,18 +4,11 @@ description: Gestion des contenus
 
 # Blocks Gutenberg - ACF
 
-**A - Les blocs Gutenberg**&#x20;
+**1 - Enregistrement du bloc**&#x20;
 
-* 1 - Enregistrement du bloc&#x20;
-* 2 - Faire apparaître le bloc&#x20;
-* 3 - Lier le bloc à son template&#x20;
+**2 - Faire apparaître le bloc**&#x20;
 
-**B - JavaScript et CSS**&#x20;
-
-* 1 - Injection d’un script pour modifier le bloc Gutenberg “Multicolonnes”&#x20;
-* 2 - Ajout de CSS
-
-### A - Les blocs Gutenberg&#x20;
+**3 - Lier le bloc à son template**&#x20;
 
 Une douzaine de blocs ont été créés :&#x20;
 
