@@ -42,34 +42,29 @@ Les blocs sont cachés par défaut. Pour faire apparaître un nouveau bloc, il f
 
 Exemple :&#x20;
 
-function my\_plugin\_allowed\_block\_types($allowed\_block\_types, $post) {
+`function my_plugin_allowed_block_types($allowed_block_types, $post) {`
 
-```
-return array('core/paragraph', ‘acf/bloc’, ‘acf/un-autre-bloc’);
-```
+`return array('core/paragraph', 'acf/bloc', 'acf/un-autre-bloc');`
 
-}&#x20;
+`}`
 
-3 - Lier le bloc à son template&#x20;
+#### 3 - Lier le bloc à son template&#x20;
 
 La fonction block\_callback() récupère chaque nom de bloc nouvellement déclaré et le lie à un template.
 
-Les templates se trouvent dans welligo/inc/blocks.
+Les templates se trouvent dans `inc/blocks.`
 
-Chaque template est relié à un groupe de champs ACF, spécialement créé pour cela. Chaque template de bloc doit donc démarrer avec ces lignes de PHP : if (have\_rows('nom\_du\_groupe\_de\_champ')) : the\_row(); $var = get\_sub\_field('un\_autre\_champ'); endif;
+Chaque template est relié à un groupe de champs ACF, spécialement créé pour cela. Chaque template de bloc doit donc démarrer avec ces lignes de PHP :&#x20;
 
-Dans le back office Wordpress, il faut donc créer un nouveau groupe de champ par bloc, et faire correspondre son “emplacement” à un bloc, qui est égal au “title” du bloc qu’on a déclaré précédement dans functions.php :
+`if (have_rows('nom_du_groupe_de_champ')) : the_row();`&#x20;
+
+&#x20;   `$var = get_sub_field('un_autre_champ');`&#x20;
+
+`endif;`
+
+Dans le back office Wordpress, il faut donc créer un nouveau groupe de champ par bloc, et faire correspondre son “emplacement” à un bloc, qui est égal au “title” du bloc qu’on a déclaré précédemment dans functions.php
+
+![](https://lh4.googleusercontent.com/Dotz9Ops6IOSJ-ryLgNcFBH0T00BZWuAc2C2kZ4H-0kmE5lSQ0FrZYA2hIQDBCeTKE3QRQyqJ8InzupzyhxvGQ8LFnnukA36RG-m3dTxgPsgbdzEaYVNbbGkWCkERxvxH150tAa0)
 
 Dans ce groupe de champ, il ne reste plus qu’à créer des sous-champs, qui apparaîtront à la fois dans le bloc Gutenberg, et dont chaque variable pourra être récupérée par le template qu’on a associé à notre bloc dans functions.php.
 
-B - JavaScript et CSS 1 - Injection d’un script pour modifier le bloc Gutenberg “Multicolonnes” Un script se trouvant dans welligo/js/gutenberg\_custom.js est injecté via la fonction gutenberg\_custom() dans functions.php.
-
-```
-Pour que ce script fonctionne, l’ID “gutenbergMulticolonne” doit avoir été indiqué au niveau des attributs du conteneur du sous-champ “Grille (nombre de colonnes par rangée)” dans le groupe de champ “Bloc - multi-colonnes”.
-
-Il faut aussi que dans la partie “choix” la clé indique combien de colonnes on aura (exemple : “rangee_de_2”, car le script récupère le dernier caractère de cette valeur). 
-```
-
-(Idée d’amélioration pour ce script : créer un sous champs qui indiquera combien de colonnes on veut afficher dans notre bloc, et qu’on récupérera via le script ?)
-
-2 - Ajout de CSS Modification mineure dans welligo/css/admin.css pour modifier le bloc Gutenberg Multicolonne
