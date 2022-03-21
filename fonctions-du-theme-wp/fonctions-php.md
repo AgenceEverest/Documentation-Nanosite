@@ -77,6 +77,8 @@ Ajout du shortcode contre le spam dans le contact mail.
 
 ### customizer-scss.php
 
+Fonction permettant à des utilisateurs de facilement customiser le CSS du Nanosite.
+
 ### ninja-forms-permissions.php
 
 ### yoast-meta-description.php
