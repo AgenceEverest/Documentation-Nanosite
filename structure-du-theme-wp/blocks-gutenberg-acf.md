@@ -1,7 +1,3 @@
----
-description: Gestion des contenus
----
-
 # Blocks Gutenberg - ACF
 
 **1 - Enregistrement du bloc**&#x20;
@@ -60,4 +56,3 @@ Dans le back office Wordpress, il faut donc créer un nouveau groupe de champ pa
 ![](https://lh4.googleusercontent.com/Dotz9Ops6IOSJ-ryLgNcFBH0T00BZWuAc2C2kZ4H-0kmE5lSQ0FrZYA2hIQDBCeTKE3QRQyqJ8InzupzyhxvGQ8LFnnukA36RG-m3dTxgPsgbdzEaYVNbbGkWCkERxvxH150tAa0)
 
 Dans ce groupe de champ, il ne reste plus qu’à créer des sous-champs, qui apparaîtront à la fois dans le bloc Gutenberg, et dont chaque variable pourra être récupérée par le template qu’on a associé à notre bloc dans functions.php.
-
