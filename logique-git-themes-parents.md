@@ -23,23 +23,3 @@ Thème parent commun à :&#x20;
 * campingportland.nanosite.tech&#x20;
 * sojade.nanosite.tech
 
-**Pour cloner un thème enfant :**
-
-On va d’abord aller sur Github, et créer un repo qui va devenir le nouveau dépôt pour notre thème enfant. Une fois notre dépôt créé, on récupère un lien git qui s’appelle quelque chose comme : git@github/nicolaseverest/mondepot.git
-
-On va donc créer un nouveau site avec un thème enfant. Le mieux est de dupliquer le site à partir d’ici : https://childtheme.nanosite.tech/ Sur ce site, deux dossiers : nanosite-proefficace, relié à : git@github/nicolaseverest/nanosite-theme-parent.git nanosite-proefficace-child, relié à : git@github/nicolaseverest/nanosite-theme-enfant.git
-
-L’idée est de changer l’adresse à laquelle est lié le dossier nanosite-proefficace-child.
-
-**Attention à bien réécrire les lignes de commande à la main pour éviter les ratages lors de copier/coller !**
-
-On installe le site en local avec MAMP, puis on se rend en ligne de commande dans le dossier nanosite-proefficace-child (cd.. pour reculer cd nomdudossier pour avancer, ls pour regarder autour de soi ce qu’il y a comme fichiers, tabulation pour faire de l’autocomplétion).
-
-Une fois dans le dossier, on check la remote en faisant :&#x20;
-
-* **git remote -v** : cela affiche à quelle remote est connectée le dossier. Normalement, il est relié à github.com/nicolaseverest/nanosite-theme-enfant&#x20;
-* On va changer cette remote à l’aide de la commande git suivante : **git remote set-url origin git@github/nicolaseverest/mondepot.git**&#x20;
-* Le dossier est maintenant lié à mon nouveau dépôt github. Il reste maintenant à créer un commit initial, pour cela je tape les commandes suivantes :&#x20;
-* **git add -A** : permet d’ajouter tous les fichiers à mon commit&#x20;
-* **git commit -m ‘initial commit’** : je crée un commit et je lui donne un nom&#x20;
-* **git push --set-upstream origin master** : je pousse mon commit sur le nouveau repo. Le drapeau set-upstream permet de définir origin et master comme étant les branches de référence de mon dossier local.

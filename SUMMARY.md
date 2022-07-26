@@ -40,3 +40,7 @@
 
 * [En cas de hack](autres/en-cas-de-hack.md)
 * [Problème "waf" et stackpath](autres/probleme-waf-et-stackpath.md)
+
+## Remerciements
+
+* [Qui participe au projet](remerciements/qui-participe-au-projet.md)
