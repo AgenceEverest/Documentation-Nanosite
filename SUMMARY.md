@@ -5,6 +5,7 @@
 * [Gestion de l'arborescence](gestion-de-larborescence.md)
 * [Logique Git / Thèmes parents](logique-git-themes-parents.md)
 * [Gestion des champs ACF](gestion-des-champs-acf.md)
+* [SSH](ssh.md)
 
 ## ⚙ Fonctions du thème WP
 
