@@ -3,6 +3,8 @@
 * [Les origines](README.md)
 * [Installation du Nanosite](installation-du-nanosite.md)
 * [Gestion de l'arborescence](gestion-de-larborescence.md)
+* [Logique Git / Thèmes parents](logique-git-themes-parents.md)
+* [Gestion des champs ACF](gestion-des-champs-acf.md)
 
 ## ⚙ Fonctions du thème WP
 
@@ -10,6 +12,7 @@
 * [Fonctions JS](fonctions-du-theme-wp/fonctions-js.md)
 * [Plugins nécessaires](fonctions-du-theme-wp/plugins-necessaires.md)
 * [Bandeau de cookies](fonctions-du-theme-wp/bandeau-de-cookies.md)
+* [Le filtre ajax (bloc "liste de post customisé filtrable")](fonctions-du-theme-wp/le-filtre-ajax-bloc-liste-de-post-customise-filtrable.md)
 
 ## 🏗 Structure du thème WP
 
@@ -31,3 +34,8 @@
 ## Navigation
 
 * [Menus](navigation/menus.md)
+
+## Autres
+
+* [En cas de hack](autres/en-cas-de-hack.md)
+* [Problème "waf" et stackpath](autres/probleme-waf-et-stackpath.md)
