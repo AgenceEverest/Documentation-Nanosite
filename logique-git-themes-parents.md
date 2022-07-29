@@ -16,13 +16,6 @@ Pour avoir les accès aux Repos, demander à nicolas@scenarii.net
 
 git remote set-url origin -> permet de changer l’url du remote enfant (par exemple)
 
-Thème parent commun à :&#x20;
-
-* Childtheme.nanosite.tech&#x20;
-* slbpharma.nanosite.tech&#x20;
-* campingportland.nanosite.tech&#x20;
-* sojade.nanosite.tech
-
 **Pour cloner un thème enfant :**
 
 On va d’abord aller sur Github, et créer un repo qui va devenir le nouveau dépôt pour notre thème enfant. Une fois notre dépôt créé, on récupère un lien git qui s’appelle quelque chose comme : git@github/nicolaseverest/mondepot.git
