@@ -22,6 +22,8 @@ Il est par contre possible d'en créer de nouvelles, pour les besoins du thème 
 
 ### Compilation du code SASS
 
+![](<.gitbook/assets/Capture d’écran 2022-07-29 à 15.39.00.png>)
+
 Le code SASS est compilé à l'aide de la librairie SCSSPHP, dans le fichier nanosite-proefficace/functions/customizer.scss.php
 
 * Cette fonction compile le CSS du thème parent et du thème enfant. Elle utilise la librairie PHP "SCSSPHP" qui se trouve dans functions/scssphp. La doc de cette librairie se trouve ici : https://scssphp.github.io/scssphp/
