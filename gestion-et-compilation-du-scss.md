@@ -22,7 +22,17 @@ Il est par contre possible d'en créer de nouvelles, pour les besoins du thème 
 
 ### Compilation du code SASS
 
+Il est possible de compiler le code SASS de deux façon. En étant connecté à l'admin, une barre apparaît en bas du site en front, pour compiler avec ou sans sourcemapping.
+
 ![](<.gitbook/assets/Capture d’écran 2022-07-29 à 15.39.00.png>)
+
+Pour activer cette barre, il faut aller dans le back office -> Customisation -> développement et activer "Afficher les infos du responsive"&#x20;
+
+![](<.gitbook/assets/Capture d’écran 2022-07-29 à 15.50.41.png>)
+
+Il est aussi possible de compiler le code SASS en allant dans la page d'accueil du backoffice
+
+![](<.gitbook/assets/Capture d’écran 2022-07-29 à 15.49.21.png>)
 
 Le code SASS est compilé à l'aide de la librairie SCSSPHP, dans le fichier nanosite-proefficace/functions/customizer.scss.php
 
