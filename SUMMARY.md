@@ -1,6 +1,12 @@
 # Table of contents
 
+## ▶ Introduction
+
 * [Les origines](README.md)
+* [A l'intention des développeurs](introduction/a-lintention-des-developpeurs.md)
+
+***
+
 * [Installation du Nanosite](installation-du-nanosite.md)
 * [Gestion de l'arborescence](gestion-de-larborescence.md)
 * [Logique Git / Thèmes parents](logique-git-themes-parents.md)
