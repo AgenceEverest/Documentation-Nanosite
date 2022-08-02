@@ -4,7 +4,7 @@ La préprod depuis laquelle dupliquer les sites se trouve ici : [https://childth
 
 Le thème parent se trouve ici  : [https://github.com/nicolaseverest/nanosite-theme-parent](https://github.com/nicolaseverest/nanosite-theme-parent)
 
-Le thème parent "par défaut" se trouve ici : [https://github.com/nicolaseverest/nanosite-theme-enfant](https://github.com/nicolaseverest/nanosite-theme-enfant)
+Le thème enfant "par défaut" se trouve ici : [https://github.com/nicolaseverest/nanosite-theme-enfant](https://github.com/nicolaseverest/nanosite-theme-enfant)
 
 Il est recommandé de créer un repo consacré au thème enfant du site qu'on développe. Par exemple, Sojade a son propre thème enfant : [https://github.com/AgenceEverest/sojade-child](https://github.com/AgenceEverest/sojade-child)
 

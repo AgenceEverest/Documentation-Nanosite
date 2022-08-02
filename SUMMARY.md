@@ -8,10 +8,10 @@
 ***
 
 * [Installation du Nanosite](installation-du-nanosite.md)
-* [Logique Git / Thèmes parent](logique-git-themes-parent.md)
+* [Logique Git / Thèmes parent](logique-git-themes-parents.md)
 * [Gestion des champs ACF et des Blocks Gutenberg](gestion-des-champs-acf.md)
 * [Gestion et compilation du SCSS](gestion-et-compilation-du-scss.md)
-* [Quelques raccourcis SSH...](quelques-raccourcis-ssh....md)
+* [Quelques raccourcis SSH...](ssh.md)
 
 ## ⚙ Fonctions du thème WP
 
