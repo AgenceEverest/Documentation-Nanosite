@@ -1,4 +1,4 @@
-# Logique Git / Thèmes parents
+# Logique Git / Thèmes parent
 
 La préprod depuis laquelle dupliquer les sites se trouve ici : [https://childtheme.nanosite.tech/](https://childtheme.nanosite.tech/)&#x20;
 
