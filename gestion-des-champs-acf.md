@@ -2,6 +2,8 @@
 
 **TL;DR : quand on customise dans le thème enfant un bloc Gutenberg présent dans le thème parent, il faut faire attention à ne pas mettre à jour le groupe de champs ACF associé à ce bloc.**
 
+**Cette partie du Nanosite est en chantier, versionner les champs ACF est l'un des objectifs de développement du Nanosite**
+
 La gestion des champs ACF et des blocs Gutenberg pose quelques problèmes avec le versionning. Pour l'instant la logique est la suivante :&#x20;
 
 * Un nouveau Nanosite (donc créé à partir de childtheme.nanosite.tech) dispose d'un ensemble de blocs de base qui sont les suivants :&#x20;
