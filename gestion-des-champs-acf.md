@@ -23,6 +23,8 @@ Lorsqu'on développe un Nanosite, il est possible de mettre à jour le thème pa
 
 Il est tout à fait possible de modifier les blocs d'origine dans le thème enfant, **mais il faudra faire bien attention à "figer" les champs ACF de ce bloc customisé, et à ne pas les mettre à jour, sous peine de perdre la customisation du bloc.**
 
+**Ainsi, lorsqu'un site passe en production ou après que l'on a intégré le contenu, si l'on met à jour le thème parent, il faut mieux ne plus toucher aux champs ACF.**
+
 Enfin, il est possible de déclarer de nouveaux blocs dans le thème enfant du site et de créer des groupes de champs ACF associés.
 
 
