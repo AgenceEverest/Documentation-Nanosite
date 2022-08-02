@@ -1,4 +1,4 @@
-# Quelques raccourcis SSH...
+# SSH
 
 Pour pouvoir pull/push, il faut installer une clé SSH sur sa machine et sur le repo de l'agence.&#x20;
 

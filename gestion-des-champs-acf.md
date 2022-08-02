@@ -17,6 +17,8 @@ La gestion des champs ACF et des blocs Gutenberg pose quelques problèmes avec l
   * Bloc - Liste de posts / filtre&#x20;
   * Bloc - Séparateur&#x20;
 
+****[**Lire comment ajouter un nouveau bloc**](structure-du-theme-wp/blocks-gutenberg-acf.md)
+
 <mark style="color:orange;">**Nota bene :**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">un groupe de champs, appelé "Colonne flexible clonable", est la base des blocs comportant des colonnes flexible. Modifier ce groupe de champs revient à modifier tous les blocs contenant une colonne flexible.</mark>
 
 Lorsqu'on développe un Nanosite, il est possible de mettre à jour le thème parent du site, et donc les fichiers servant à afficher ces blocs. Mais si l'on met à jour les fichiers PHP, il faut aussi mettre à jour les champs ACF du site.
