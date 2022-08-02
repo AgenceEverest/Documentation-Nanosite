@@ -9,10 +9,10 @@
 
 * [Installation du Nanosite](installation-du-nanosite.md)
 * [Gestion de l'arborescence](gestion-de-larborescence.md)
-* [Logique Git / Thèmes parents](logique-git-themes-parents.md)
+* [Logique Git / Thèmes parent](logique-git-themes-parent.md)
 * [Gestion des champs ACF et des Blocks Gutenberg](gestion-des-champs-acf.md)
 * [Gestion et compilation du SCSS](gestion-et-compilation-du-scss.md)
-* [SSH](ssh.md)
+* [Connexion en SSH aux préprods](connexion-en-ssh-aux-preprods.md)
 
 ## ⚙ Fonctions du thème WP
 
