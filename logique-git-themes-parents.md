@@ -1,10 +1,10 @@
-# Logique Git / Thèmes parents
+# Logique Git / Thèmes parent
 
 La préprod depuis laquelle dupliquer les sites se trouve ici : [https://childtheme.nanosite.tech/](https://childtheme.nanosite.tech/)&#x20;
 
 Le thème parent se trouve ici  : [https://github.com/nicolaseverest/nanosite-theme-parent](https://github.com/nicolaseverest/nanosite-theme-parent)
 
-Le thème parent "par défaut" se trouve ici : [https://github.com/nicolaseverest/nanosite-theme-enfant](https://github.com/nicolaseverest/nanosite-theme-enfant)
+Le thème enfant "par défaut" se trouve ici : [https://github.com/nicolaseverest/nanosite-theme-enfant](https://github.com/nicolaseverest/nanosite-theme-enfant)
 
 Il est recommandé de créer un repo consacré au thème enfant du site qu'on développe. Par exemple, Sojade a son propre thème enfant : [https://github.com/AgenceEverest/sojade-child](https://github.com/AgenceEverest/sojade-child)
 
@@ -44,3 +44,9 @@ Si on souhaite intégrer des mises à jours de la branche master sur une branche
 * On checkout sur notre branche de travail en cours
 * On merge master avec notre branche de travail en cours (**git merge origin/master**)
 * On push le nouveau commit créé par cette manip
+
+Sur les serveurs de préprod/prod, il faut générer une clé SSH ECDSA à l'aide de la commande :&#x20;
+
+```
+ssh-keygen -t ecdsa -b 521
+```
