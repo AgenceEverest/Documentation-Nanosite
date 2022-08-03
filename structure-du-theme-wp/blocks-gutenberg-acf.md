@@ -8,16 +8,15 @@
 
 Une douzaine de blocs ont été créés :&#x20;
 
-* Bloc séparateur&#x20;
-* Call-to-action 2 colonnes textes&#x20;
-* 2 colonnes texte / visuel&#x20;
-* 2 colonnes texte / visuel (large)&#x20;
-* Image(s)&#x20;
-* bloc multicolonnes&#x20;
-* bloc iframe (vidéos, autre)&#x20;
-* bloc grand slider bloc témoignage&#x20;
-* bloc questions réponses&#x20;
-* bloc une colonne large&#x20;
+* Bloc - 1 colonne flexible
+* Bloc - ancres
+* Bloc - 2 colonnes flexibles
+* Bloc - 3 colonnes flexibles
+* Bloc - Multicolonnes&#x20;
+* Bloc - 2 colonnes texte/visuel
+* Bloc 2 colonnes texte/visuel (large)
+* Bloc - Liste de posts / filtre&#x20;
+* Bloc - Séparateur&#x20;
 
 #### 1 - Enregistrement du bloc&#x20;
 
