@@ -1,3 +1,9 @@
+---
+description: >-
+  Ce bloc, trop complexe à mettre en place et à maintenir, en cours de
+  remplacement par un bloc contenant une app VueJS, appelé "Block-app"
+---
+
 # Le filtre ajax (bloc "liste de post customisé filtrable")
 
 Lorsqu’on veut créer un filtre Ajax avec plusieurs taxonomies sur le Nanosite, il suffit de rajouter créer un bloc Gutenberg “Bloc listant les articles customisés filtrables”.
