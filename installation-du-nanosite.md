@@ -4,7 +4,7 @@ description: “Tout est dans le swing” - Paul Web, 2019
 
 # Installation du Nanosite
 
-Pour l'instant, l'installation du Nanosite se fait à partir d'un ZIP généré avec le plugin Duplicator depuis l'installation parente du nanosite : https://welligo2.nanosite.tech
+Pour l'instanty, l'installation du Nanosite se fait à partir d'un ZIP généré avec le plugin Duplicator depuis l'installation parente du nanosite : https://welligo2.nanosite.tech
 
 **Pour installer une preprod :**&#x20;
 
