@@ -2,7 +2,7 @@
 
 ## ▶ Introduction
 
-* [Les origines aa](README.md)
+* [Les origines](README.md)
 * [A l'intention des développeurs](introduction/a-lintention-des-developpeurs.md)
 
 ***
@@ -20,6 +20,7 @@
 * [Plugins nécessaires](fonctions-du-theme-wp/plugins-necessaires.md)
 * [Bandeau de cookies](fonctions-du-theme-wp/bandeau-de-cookies.md)
 * [Le filtre ajax (bloc "liste de post customisé filtrable")](fonctions-du-theme-wp/le-filtre-ajax-bloc-liste-de-post-customise-filtrable.md)
+* [Block app / VueJS](fonctions-du-theme-wp/block-app-vuejs.md)
 
 ## 🏗 Structure du thème WP
 
