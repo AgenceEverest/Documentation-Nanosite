@@ -41,7 +41,7 @@ Une fois dans le dossier, on check la remote en faisant :&#x20;
 
 Si on souhaite intégrer des mises à jours de la branche master sur une branche de travail :&#x20;
 
-* On checkout sur notre branche de travail en cours
+* On checkout sur notre branche master
 * On merge master avec notre branche de travail en cours (**git merge origin/master**)
 * On push le nouveau commit créé par cette manip
 
