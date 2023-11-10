@@ -17,7 +17,7 @@ La gestion des champs ACF et des blocs Gutenberg pose quelques problèmes avec l
   * Bloc - Liste de posts / filtre&#x20;
   * Bloc - Séparateur&#x20;
 
-****[**Lire comment ajouter un nouveau bloc**](structure-du-theme-wp/blocks-gutenberg-acf.md)
+[**Lire comment ajouter un nouveau bloc**](structure-du-theme-wp/blocks-gutenberg-acf.md)
 
 <mark style="color:orange;">**Nota bene :**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">un groupe de champs, appelé "Colonne flexible clonable", est la base des blocs comportant des colonnes flexible. Modifier ce groupe de champs revient à modifier tous les blocs contenant une colonne flexible.</mark>
 

@@ -11,7 +11,8 @@
 * [Logique Git / Thèmes parent](logique-git-themes-parents.md)
 * [Gestion des champs ACF et des Blocks Gutenberg](gestion-des-champs-acf.md)
 * [Gestion et compilation du SCSS](gestion-et-compilation-du-scss.md)
-* [Quelques raccourcis SSH...](ssh.md)
+* [Quelques raccourcis SSH...](ssh/README.md)
+  * [Liste des sites gités / non-gité sur Infomaniak](ssh/liste-des-sites-gites-non-gite-sur-infomaniak.md)
 
 ## ⚙ Fonctions du thème WP
 
