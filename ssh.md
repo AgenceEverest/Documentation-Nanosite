@@ -26,7 +26,7 @@ gppall : git pull sur tous les thèmes parents
 
 ssh-keygen -t ecdsa -b 521 -C [your\_email@example.com](mailto:your\_email@example.com)  => la commande pour relier git à un serveur de façon sécurisé. L'email doit être celui du compte github
 
-Attention : sur les serveurs Infomaniak, le nom de la clef publique doit être id\_ecdsa.pub (et pas autre chose)
+Attention : sur les serveurs Infomaniak, le nom de la clef publique doit être id\_ecdsa.pub (et pas autre chose), c'est une convention.
 
 
 
