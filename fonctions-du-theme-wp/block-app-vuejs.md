@@ -59,3 +59,11 @@ Pour le site maisonbordier.com, le endpoint custom sur les taxonomies a été tr
 Dans un soucis de cohérence, le CSS du block-app est géré comme tous le reste du CSS du site : dans le dossier nanosite-proefficace-child/scss, plutôt que dans les composants Vue.
 
 Il existe du CSS au sein des composants Vue, mais je recommande de ne pas l'utiliser et de le commenter s'il ne l'est pas déjà. Cependant, le CSS des composants Vue peut-être utile en cas de débuggage ou d'ajout de fonctionnalités de l'application : lorsqu'on lance la commande NPM run serve, on lance un serveur local et l'application, et le CSS qui est lu est celui des composants, pas celui du site. Il peut donc être utile de le décommenter dans ce cas de figure.
+
+## **Pour l'adapter à un nouveau site**
+
+Pour tester l'app en local, il est possible d'utiliser la commande `npm run dev` pour afficher l'application et la recharger à la volée. Cependant il y a quelques fichiers à modifier pour qu'elle fonctionne correctement : &#x20;
+
+* Tout d'abord, l'application en état de dév utilise le fichier vue-app/index.html, qui contient le code html généré par un bloc PHP. C'est à dire qu'il faut créer le bloc PHP qui contient l'app, récupérer le code JSON généré par le bloc, et le coller à la place de celui présent dans index.html, pour simuler la présence d'un bloc Gutenberg dans index.html. L'application va ainsi utiliser ces données pour générer le code.
+* Ensuite, il faut modifier l'adresse du host dans le fichier vue-app/src/helpers/cleanUrl.js. Il y a une condition qui vérifie si on se trouve en localhost. Si c'est le cas, alors il faut renseigner le bon "pathname".&#x20;
+* Il faut ensuite faire la requête fetch sur le bon endpoint. A vérifier si dans la version de l'app que vous avez entre les mains, il n'y a pas un custom endpoint qui est fetché. Un endpoint par défaut pour les publications est mon-site.fr/wp-json/wp/v2/mon-type-de-publication
