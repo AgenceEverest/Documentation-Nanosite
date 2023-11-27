@@ -8,15 +8,15 @@ Le bandeau de cookies est géré grâce à plusieurs fichiers :&#x20;
 
 La logique est la suivante :&#x20;
 
-0/ Les cookies sont des lignes de code écrites en back office, qui sont chargées dans header.php. Par défaut elles sont bloquées par une condition PHP, qui peut être débloquée par l'utilisateur en acceptant les cookies.
+1/ Les cookies sont des lignes de code écrites en back office, qui sont chargées dans header.php. Par défaut elles sont bloquées par une condition PHP, qui peut être débloquée par l'utilisateur en acceptant les cookies.
 
-1/ L'administrateur remplit en back office les cookies qu'il souhaite ajouter au site internet (Pixel Facebook, Google Ads, Google Analytics). Il définit aussi la durée de validité des cookies, le nom des cookies, etc.
+2/ L'administrateur remplit en back office les cookies qu'il souhaite ajouter au site internet (Pixel Facebook, Google Ads, Google Analytics). Il définit aussi la durée de validité des cookies, le nom des cookies, etc.
 
-2/ Les variables sont récupérées en PHP dans footer.php et transformées en variable JS. Le fichier bandeau\_cookies.js est chargé et les variables sont récupérées.
+3/ Les variables sont récupérées en PHP dans footer.php et transformées en variable JS. Le fichier bandeau\_cookies.js est chargé et les variables sont récupérées.
 
-3/ Le fichier bandeau\_cookies (fonctionnement détaillé ci-dessous) crée les cookies et gère la bannière.
+4/ Le fichier bandeau\_cookies (fonctionnement détaillé ci-dessous) crée les cookies et gère la bannière.
 
-4/ Lorsque l'utilisateur accepte les cookies, la page est rechargée et les cookies, s'ils sont acceptés, vont donc être écrit en début de page (voir étape 0).
+5/ Lorsque l'utilisateur accepte les cookies, la page est rechargée et les cookies, s'ils sont acceptés, vont donc être écrit en début de page (voir étape 0).
 
 ### Bandeau\_cookies.js
 
