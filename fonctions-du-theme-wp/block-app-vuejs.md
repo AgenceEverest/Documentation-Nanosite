@@ -34,6 +34,7 @@ Plusieurs sites installés au cours de l'année 2022 / 2023 utilisent cette appl
 * naviso.fr&#x20;
 * petitbilly.com
 * maisonbordier.com
+* useweb.fr
 
 Le thème enfant de chacun de ces sites étant unique, le code de l'app VueJS l'est aussi, car il s'adapte aux contextes de ces sites, les custom post types concernés par le filtre et l'affichage, mais aussi, les filtres (à plusieurs étages, en mode multi-select, ou bien avec une input de recherche).&#x20;
 
